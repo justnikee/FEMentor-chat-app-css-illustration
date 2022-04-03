@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;900&family=Rubik:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+    }
+
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+
+.child-container-one{
+      height: 40rem;
+      width: 30rem;
+      border-radius: 0 0 60% 60%; 
+      position: relative;
+      right: 5rem;
+  
+      
+      background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));    }
+      
+
+.child-container-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  width: 350px;
+  background-color: #fff;
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  border-radius: 40px;
+}
+
+
+.screen-container{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(270, 20%, 96%);
+  height: 670px;
+  width: 320px;
+  margin-top: 15px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+
+.notch{
+  background-color: #fff;
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.mobile-nav{
+  border-radius: 25px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  width: 320px;
+  height: 100px;
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+}
+
+
+.nav-wrapper{
+  padding-left: 15px;
+  height: 100px;
+  width: 290px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+
+.profile-image{
+  height:35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+
+.username{
+  padding-top:8px;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+
+
+.username p{
+  color: hsl(276, 100%, 81%);
+  font-size: 12px;
+}
+
+.chat-one{
+    height: 30px;
+  width: 150px;
+  font-size: 11px;
+  background-color:hsl(263, 68%, 90%);
+  padding: 8px;
+  margin-top: 11px;
+  position: relative;
+  right: 65px;
+  border-radius: 15px 15px 15px 4px;
+}
+
+
+.chat-one p{
+  padding: 1px;
+}
+
+
+.chat{
+  color: hsl(276, 55%, 52%);
+  font-weight: 400;
+}
+
+.right-chat{
+  color: hsl(271, 15%, 43%);
+  font-weight: 400;
+}
+
+
+.chat-two{
+  height: 30px;
+  width: 150px;
+  font-size: 11px;
+  background-color: hsl(263, 68%, 90%);
+  padding: 8px;
+  margin-top: 11px;
+  position: relative;
+  right: 65px;
+  border-radius: 15px 15px 15px 4px;
+}
+
+.chat-two p{
+  padding: 1px;
+}
+
+.chat-three{
+  height: 30px;
+  width: 155px;
+  font-size: 11px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  position: relative;
+  left: 60px;
+  border-radius: 20px 20px 5px 20px;
+}
+
+.chat-three{
+  padding: 10px;
+}
+
+.chat-four{
+  height: 15px;
+  width: 90px;
+  font-size: 11px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  left: 93px;
+  border-radius: 20px 20px 5px 20px;
+}
+
+.chat-four p{
+  padding: 1px;
+}
+.chat-images img{
+  height: 55px;
+  width: 55px;
+  border-radius: 35%;
+  padding-right: 5px;
+}
+.chat-images{
+  height: 50px;
+  width: 200px;
+  margin-top: 25px;
+  position: relative;
+  left: 62px;
+}
+
+.chat-five{
+  height: 40px;
+  width: 155px;
+  font-size: 11px;
+  background-color: hsl(263, 68%, 90%);
+  padding: 11px;
+  margin-top: 20px;
+  position: relative;
+  right: 55px;
+  border-radius: 20px 20px 20px 2px;
+}
+
+.checkbox-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 220px;
+  font-size: 11px;
+  background-image: linear-gradient( to right ,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+  margin-top: 10px;
+  position: relative;
+  right: 35px;
+  border-radius:  15px 15px 15px 5px;
+}
+
+
+
+.checkbox-one input{
+  position: relative;
+  right: 20px;
+   
+}
+
+
+.checkbox-one h2{
+  position: relative;
+  left: 15px;
+  color: #fff;
+}
+
+.checkbox-one p{
+  font-size: 12px;
+  padding-right: 20px;
+  color: #fff;
+  
+}
+
+.checkbox-two{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 220px;
+  font-size: 11px;
+  background-image: linear-gradient( to right ,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+  margin-top: 10px;
+  position: relative;
+  right: 35px;
+  border-radius:  15px 15px 15px 5px;
+}
+
+
+.checkbox-two input{
+  position: relative;
+  right: 20px;
+  
+   
+}
+
+.checkbox-two h2{
+  position: relative;
+  left: 15px;
+  color: #fff;
+}
+
+.checkbox-two p{
+  font-size: 12px;
+  margin-right: 40px;
+  color: #fff;
+  
+}
+
+.message-section{
+  display: flex;
+  padding: 10px;
+}
+
+.message-section input{
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+
+.buttonIn {
+        width: 300px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+
+input{
+  background-color: #fff;
+  border: 0px solid;
+}
+
+.in{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+}
+
+      
+button{
+      position: absolute;
+      top: 0;
+      border-radius: 20px;
+      right: 0px;
+      z-index: 2;
+      border: none;
+      top: 1px;
+      height: 40px;
+      width: 40px;
+      cursor: pointer;
+      background-color: hsl(271, 36%, 24%);
+      transform: translateX(2px);
+    }
+
+      
+::placeholder {
+  color: hsl(206, 6%, 79%);
+  font-size: 16px;
+  opacity: 1;
+}
+
+
+.child-container-three{
+  height: 150px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: lightblue;
+  position: absolute;
+  top: 300px;
+  left: 790px;
+  background-color: transparent;
+}
+
+
+.heading-main{
+  margin-bottom: 15px;
+  margin-right: 165px;
+  font-size: 35px;
+  font-weight: 500;
+  color: hsl(271, 36%, 24%);
+}
+
+.secondary-paragraph{
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  width: 425px;
+  color: hsl(270, 7%, 64%);
+  font-size: 15px;
+  padding: 10px 90px 10px 90px;
+}
+
+.container-four{
+   height: 40rem;
+   width: 25rem;
+  position: absolute;
+  right: -9rem;
+  top: 100px;
+  z-index: -2;
+   background-color: lightgray;
+   border-radius:60% 60% 0 0 ;
+   
+}
+
+.attribution{
+  text-align: center;
+  background-color: transparent;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  color:hsl(271, 36%, 24%);
+  padding-top: 20px;
+  
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+  
+
+.back{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 13px;
+  top: 6px;
+  
+}
+
+.dots{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 70px;
+  top: 5px;
+}
+
+
